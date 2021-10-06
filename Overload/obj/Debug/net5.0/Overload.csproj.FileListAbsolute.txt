@@ -1,0 +1,16 @@
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.exe
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.deps.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.runtimeconfig.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.runtimeconfig.dev.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\ref\Overload.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\bin\Debug\net5.0\Overload.pdb
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.csproj.AssemblyReference.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.GeneratedMSBuildEditorConfig.editorconfig
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.AssemblyInfoInputs.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.AssemblyInfo.cs
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.csproj.CoreCompileInputs.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\ref\Overload.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.pdb
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\Overload\obj\Debug\net5.0\Overload.genruntimeconfig.cache
