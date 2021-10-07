@@ -66,6 +66,18 @@ namespace Overload
                
             };
         }
+
+        public static Square operator +(Square left,Rectangle right)
+        {
+            return new Square()
+            {
+                NameFigure = "Another square",
+                SideLength = left.SideLength + right.Height
+
+            };
+        }
+
+
         public static Square operator +(Square left, int values)
         {
             return new Square()
