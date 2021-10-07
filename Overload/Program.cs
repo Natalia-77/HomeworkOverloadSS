@@ -10,6 +10,7 @@ namespace Overload
             Square square1 = new("Square first ", 10);
             Rectangle rectangle = new("Rectangle", 10, 25);
 
+
             //Square square_rectan=square + rectangle;
             //square_rectan.Show();
 
@@ -33,6 +34,14 @@ namespace Overload
             //Console.WriteLine("Implicit int conversion to Square");
             //int number = square4;
             //Console.WriteLine($"Number is :{ number}");
+
+            //Console.WriteLine("Explicit Rectangle conversion to Square");          
+            //Square square2 = rectangle;
+            //square2.Show();
+
+            //Console.WriteLine("Explicit Rectangle conversion to int ");
+            //Rectangle rectangle1 = (Rectangle)50;           
+            //rectangle1.Show();
 
 
 

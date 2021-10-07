@@ -160,23 +160,22 @@ namespace Overload
             return HashCode.Combine(Width,Height);
         }
 
-        public static implicit operator Square(Rectangle r)
+        public static explicit operator Rectangle(Square square)
         {
-            Square s = new(r.Height);
-            return s;
+            Rectangle rect=new();
+            rect.Height = square.SideLength;           
+            return rect;
         }
 
-        public static implicit operator Square(int r)
-        {
-            Square s = new(r);
-            return s;
+        public static explicit operator Rectangle(int val)
+        {             
+            Rectangle r = new();
+            r.Height = val;
+            r.Width = val;
+            return r;
         }
 
-        public static implicit operator int(Square s)
-        {
-            return (int)s.SideLength;
-
-        }
+       
 
 
 
