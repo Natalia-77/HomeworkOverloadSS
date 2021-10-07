@@ -20,6 +20,11 @@ namespace Overload
         {
 
         }
+
+        public Square(double sidelength)
+        {
+            SideLength = sidelength;
+        }
         public Square(string name, double sidelength)
         {
             SideLength = sidelength;
@@ -133,5 +138,36 @@ namespace Overload
             return s.SideLength == 0;
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Square suqare &&
+                   SideLength == suqare.SideLength;
+        }
+
+        public override int GetHashCode()
+        {
+             return HashCode.Combine(SideLength);
+        }
+
+        public static implicit operator Square(Rectangle r)
+        {
+            Square s = new(r.Height);
+            return s;
+        }
+
+        public static implicit operator Square(int r)
+        {
+            Square s = new(r);
+            return s;
+        }
+
+        public static implicit operator int(Square s)
+        {
+            return (int)s.SideLength;
+
+        }
+
     }
+
 }
+
