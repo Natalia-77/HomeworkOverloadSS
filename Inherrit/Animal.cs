@@ -16,7 +16,6 @@ namespace Inherrit
                 
         }
 
-
         public Animal(string name,string sound,DateTime date)
         {
             Name = name;

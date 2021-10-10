@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Inherrit
 {
-    class LandAnimal : Animal
+    class WaterAnimal:Animal
     {
         public string Environment { get; set; }
 
         public double Width { get; set; }
 
-        public LandAnimal(string name,string sound,DateTime datebirth,double width)
-            :base(name,sound,datebirth)
+        public WaterAnimal(string name, string sound, DateTime datebirth,double width)
+            : base(name, sound, datebirth)
         {
             Environment = "Land";
             Width = width;
