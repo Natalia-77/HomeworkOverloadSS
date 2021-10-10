@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overload", "Overload\Overload.csproj", "{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inherrit", "Inherrit\Inherrit.csproj", "{A5740D3C-7922-476A-9449-169F7A1CE63D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
