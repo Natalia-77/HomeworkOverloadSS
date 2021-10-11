@@ -16,10 +16,9 @@ namespace Inherrit
                 
         }
 
-        public Animal(string name,string sound,DateTime date)
+        public Animal(string name,DateTime date)
         {
-            Name = name;
-            Sound = sound;
+            Name = name;            
             DateBirth = date;
         }
 

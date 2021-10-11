@@ -19,8 +19,8 @@ namespace Inherrit
 
         public string Curator { get; set; }
 
-        public Dog(string name, string sound, DateTime datebirth, double width,int sector,string curator)
-            :base(name,sound,datebirth,width)
+        public Dog(string name, DateTime datebirth, double width,int sector,string curator)
+            :base(name,datebirth,width)
         {
             SectorNumber = sector;
             Curator = curator;
@@ -31,8 +31,16 @@ namespace Inherrit
         public void AddPuppy()
         {
             Puppy++;
+            hasPuppies=true;
+        }
+        public new void FinalInfo()
+        {
+            PrintInfo();
+            Console.WriteLine($"Sector:{SectorNumber}\n" +
+                $"Curator: {Curator}");
         }
 
-        
+
+
     }
 }

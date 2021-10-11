@@ -12,8 +12,8 @@ namespace Inherrit
 
         public double Width { get; set; }
 
-        public WaterAnimal(string name, string sound, DateTime datebirth,double width)
-            : base(name, sound, datebirth)
+        public WaterAnimal(string name, DateTime datebirth,double width)
+            : base(name, datebirth)
         {
             Environment = "Land";
             Width = width;
