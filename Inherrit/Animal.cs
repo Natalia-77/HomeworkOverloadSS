@@ -8,6 +8,8 @@ namespace Inherrit
 {
     class Animal
     {
+
+        
         public string  Name { get; set; }
         public string Sound { get; set; }
         public DateTime DateBirth { get; }
@@ -17,15 +19,16 @@ namespace Inherrit
         }
 
         public Animal(string name,DateTime date)
-        {
+        {          
             Name = name;            
             DateBirth = date;
         }
 
         public void Print()
         {
-            Console.WriteLine($"Animal name:{Name} has sound:{Sound}||" +
-                $" Date of birth:{DateBirth.ToShortDateString()}");
+            Console.WriteLine($"Animal name:{Name}\nSound:{Sound}\n" +
+                $"Date of birth:{DateBirth.ToShortDateString()}");
+           
         }
     }
 }

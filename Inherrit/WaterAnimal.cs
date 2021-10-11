@@ -15,8 +15,12 @@ namespace Inherrit
         public WaterAnimal(string name, DateTime datebirth,double width)
             : base(name, datebirth)
         {
-            Environment = "Land";
+            Environment = "Water";
             Width = width;
+        }
+
+        public WaterAnimal()
+        {
         }
 
         public new void PrintInfo()

@@ -6,24 +6,18 @@ using System.Threading.Tasks;
 
 namespace Inherrit
 {
-    class Dog : LandAnimal
-    {
-        protected bool hasPuppies;
-
-        private int puppy;
-        public int Puppy { get => puppy; set => puppy = value; }
+    class Carp:WaterAnimal
+    {     
 
         private int width;
         public int Width { get => width; set => width = value; }       
-       
-        public string Status => hasPuppies ? "Has puppies" : "Not yet";     
 
         public int SectorNumber { get; set; }
 
         public string Curator { get; set; }
 
-        public Dog(string name, DateTime datebirth, int width,int sector,string curator)
-            :base(name,datebirth)
+        public Carp(string name, DateTime datebirth, int width, int sector, string curator)
+            : base(name, datebirth)
         {
             SectorNumber = sector;
             Curator = curator;
@@ -35,7 +29,7 @@ namespace Inherrit
         public void AddPuppy()
         {
             Puppy++;
-            hasPuppies=true;
+            hasPuppies = true;
         }
         public new void FinalInfo()
         {

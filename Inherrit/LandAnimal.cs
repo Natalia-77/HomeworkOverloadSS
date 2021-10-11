@@ -8,22 +8,24 @@ namespace Inherrit
 {
     class LandAnimal : Animal
     {
-        public string Environment { get; set; }
+       
+        public string Environment { get; set; }       
 
-        public double Width { get; set; }
-
-        public LandAnimal(string name,DateTime datebirth,double width)
+        public LandAnimal(string name,DateTime datebirth)
             :base(name,datebirth)
         {
             Environment = "Land";
-            Width = width;
+                      
+        }
+
+        public LandAnimal()
+        {
         }
 
         public new void PrintInfo()
         {
             Print();
-            Console.WriteLine($"Environment: {Environment}\n" +
-                $"Width: {Width}");
+            Console.WriteLine($"Environment: {Environment}");
         }
 
     }
