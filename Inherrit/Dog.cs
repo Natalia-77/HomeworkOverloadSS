@@ -42,7 +42,7 @@ namespace Inherrit
             PrintInfo();
             Console.WriteLine($"Sector:{SectorNumber}\n" +
                 $"Curator: {Curator}\nWidth:{Width} ");
-            Console.WriteLine("-------------------------------\n");
+            
         }
 
 

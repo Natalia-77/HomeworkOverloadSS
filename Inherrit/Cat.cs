@@ -37,8 +37,8 @@ namespace Inherrit
         {
             PrintInfo();
             Console.WriteLine($"Sector:{SectorNumber}\n" +
-                $"Curator: {Curator}\n Count of kitten:{Kitten}");
-            Console.WriteLine("----------------------");
+                $"Curator: {Curator}\nCount of kitten:{Kitten}");
+           
         }
 
     }

@@ -7,36 +7,39 @@ using System.Threading.Tasks;
 namespace Inherrit
 {
     class Carp:WaterAnimal
-    {     
+    {
+        protected bool hasTeeth;
 
-        private int width;
-        public int Width { get => width; set => width = value; }       
+        private int weight;
+        public int Weight { get => weight; set => weight = value; }
+
+        public string DangerStatus => hasTeeth ? "Danger!" : "Don't danger!Yet...";
 
         public int SectorNumber { get; set; }
 
         public string Curator { get; set; }
 
-        public Carp(string name, DateTime datebirth, int width, int sector, string curator)
+        public Carp(string name, DateTime datebirth, int weight, int sector, string curator)
             : base(name, datebirth)
         {
             SectorNumber = sector;
             Curator = curator;
             Sound = "Woof";
-            Width = width;
+            Weight = weight;
 
         }
 
-        public void AddPuppy()
+        public void AddDangerTeeth()
         {
-            Puppy++;
-            hasPuppies = true;
+            hasTeeth = true;
         }
+      
         public new void FinalInfo()
         {
             PrintInfo();
             Console.WriteLine($"Sector:{SectorNumber}\n" +
-                $"Curator: {Curator}\nWidth:{Width} ");
-            Console.WriteLine("-------------------------------\n");
+                $"Curator: {Curator}\nWeight:{Weight}\nDanger status:{DangerStatus} ");
+            
         }
 
 

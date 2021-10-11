@@ -23,6 +23,8 @@ namespace Inherrit
             dog[2] = new Dog("Kamaro", new DateTime(2020, 02, 09), 55, 23, "Poroshenko P.");
             dog[3] = new Dog("Kaisa", new DateTime(2019, 11, 05), 56, 20, "Timoshenko Y.");
             dog[4] = new Dog("Petra", new DateTime(2021, 01, 01), 40, 24, "Ahmetov R.");
+            dog[1].AddPuppy();
+
 
             Cat[] cats = new Cat[2];
             cats[0] = new Cat("Barsik", new DateTime(2017, 12, 10), 17, 15, "Tretyak O.");
@@ -30,12 +32,39 @@ namespace Inherrit
             cats[0].AddKitten();
 
 
+            Carp[] carps = new Carp[2];
+            carps[0] = new Carp("Semen", new DateTime(2017, 03, 05), 10, 111, "Tretyak O.");
+            carps[1]=new Carp("Vasyl", new DateTime(2019, 08, 09), 10, 112, "Lyashko V.");
+            carps[1].AddDangerTeeth();
+
+            Console.WriteLine("=========Dogs========\n");
+
+            foreach (var item in dog)
+            {
+                item.FinalInfo();
+                Console.WriteLine(item.Status);
+                Console.WriteLine("------------------");
+            }
+
+            Console.WriteLine("=========Cats========\n");
+
             foreach (var item in cats)
             {
                 item.FinalInfo();
+                Console.WriteLine(item.Status);
+                Console.WriteLine("------------------");
             }
 
-            
+            Console.WriteLine("=========Carps========\n");
+
+            foreach (var item in carps)
+            {
+                item.FinalInfo();
+                Console.WriteLine(item.DangerStatus);
+                Console.WriteLine("------------------");
+            }
+
+
 
 
 

@@ -10,13 +10,12 @@ namespace Inherrit
     {
         public string Environment { get; set; }
 
-        public double Width { get; set; }
+       
 
-        public WaterAnimal(string name, DateTime datebirth,double width)
+        public WaterAnimal(string name, DateTime datebirth)
             : base(name, datebirth)
         {
-            Environment = "Water";
-            Width = width;
+            Environment = "Water";           
         }
 
         public WaterAnimal()
@@ -26,8 +25,7 @@ namespace Inherrit
         public new void PrintInfo()
         {
             Print();
-            Console.WriteLine($"Environment: {Environment}\n" +
-                $"Width: {Width}");
+            Console.WriteLine($"Environment: {Environment}");
         }
 
     }
