@@ -33,12 +33,10 @@ namespace Inherrit
             Kitten++;
             hasKitten = true;
         }
-        public new void FinalInfo()
-        {
-            PrintInfo();
+        public override void Print()
+        {           
             Console.WriteLine($"Sector:{SectorNumber}\n" +
-                $"Curator: {Curator}\nCount of kitten:{Kitten}");
-           
+                $"Curator: {Curator}\nCount of kitten:{Kitten}");           
         }
 
     }

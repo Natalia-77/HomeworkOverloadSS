@@ -24,7 +24,7 @@ namespace Inherrit
             DateBirth = date;
         }
 
-        public void Print()
+        public virtual void Print()
         {
             Console.WriteLine($"Animal name:{Name}\nSound:{Sound}\n" +
                 $"Date of birth:{DateBirth.ToShortDateString()}");

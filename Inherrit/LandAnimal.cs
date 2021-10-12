@@ -22,9 +22,8 @@ namespace Inherrit
         {
         }
 
-        public new void PrintInfo()
-        {
-            Print();
+        public override void Print()
+        {           
             Console.WriteLine($"Environment: {Environment}");
         }
 

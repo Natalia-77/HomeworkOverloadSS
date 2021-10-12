@@ -37,12 +37,10 @@ namespace Inherrit
             Puppy++;
             hasPuppies=true;
         }
-        public new void FinalInfo()
-        {
-            PrintInfo();
+        public override void Print()
+        {            
             Console.WriteLine($"Sector:{SectorNumber}\n" +
-                $"Curator: {Curator}\nWidth:{Width} ");
-            
+                $"Curator: {Curator}\nWidth:{Width} ");            
         }
 
 

@@ -24,7 +24,7 @@ namespace Inherrit
         {
             SectorNumber = sector;
             Curator = curator;
-            Sound = "Woof";
+            Sound = "Yumy-yumy";
             Weight = weight;
 
         }
@@ -34,9 +34,9 @@ namespace Inherrit
             hasTeeth = true;
         }
       
-        public new void FinalInfo()
+        public override void Print()
         {
-            PrintInfo();
+            
             Console.WriteLine($"Sector:{SectorNumber}\n" +
                 $"Curator: {Curator}\nWeight:{Weight}\nDanger status:{DangerStatus} ");
             

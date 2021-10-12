@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overload", "Overload\Overload.csproj", "{C9C9E2CE-17CA-4F6E-90B3-341745CECE8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inherrit", "Inherrit\Inherrit.csproj", "{A5740D3C-7922-476A-9449-169F7A1CE63D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inherrit", "Inherrit\Inherrit.csproj", "{A5740D3C-7922-476A-9449-169F7A1CE63D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFigure", "AbstractFigure\AbstractFigure.csproj", "{2E549AF4-8220-45A6-86BF-9E5DF0FA3601}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5740D3C-7922-476A-9449-169F7A1CE63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E549AF4-8220-45A6-86BF-9E5DF0FA3601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E549AF4-8220-45A6-86BF-9E5DF0FA3601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E549AF4-8220-45A6-86BF-9E5DF0FA3601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E549AF4-8220-45A6-86BF-9E5DF0FA3601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

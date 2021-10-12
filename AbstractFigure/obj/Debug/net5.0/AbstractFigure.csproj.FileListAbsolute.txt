@@ -1,0 +1,16 @@
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.exe
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.deps.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.runtimeconfig.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.runtimeconfig.dev.json
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\ref\AbstractFigure.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\bin\Debug\net5.0\AbstractFigure.pdb
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.csproj.AssemblyReference.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.AssemblyInfoInputs.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.AssemblyInfo.cs
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.csproj.CoreCompileInputs.cache
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\ref\AbstractFigure.dll
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.pdb
+D:\Natalia\Project1\HomeworkOverloadSS\Overload\AbstractFigure\obj\Debug\net5.0\AbstractFigure.genruntimeconfig.cache
