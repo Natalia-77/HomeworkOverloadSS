@@ -23,6 +23,17 @@ namespace AbstractFigure
                 el.Show();
             }
 
+
+            Figure[] f =
+            {
+               new Rectangle("Прямокутник", 5.2,7),
+               new Circle("Коло", 5.6),
+               new Triangle("Трикутник",7,7,8)
+            };
+
+            Composite c = new Composite("Res",f);
+            c.Printres();
+
         }
     }
 }
